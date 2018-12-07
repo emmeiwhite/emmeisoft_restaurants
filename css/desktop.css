@@ -1,5 +1,7 @@
 html {
   font-size: 10px;
+  font-family: "Lato", sans-serif;
+  color: #555;
 }
 
 * {
@@ -8,7 +10,25 @@ html {
   padding: 0;
 }
 
+/* DESKTOP - FIRST   APPROACH*/
 .row {
   max-width: 1140px;
   margin: 0 auto;
+}
+
+/* Designing the HEADER SECTION */
+
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("./../images/hero.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .header-text {
+  
 }
