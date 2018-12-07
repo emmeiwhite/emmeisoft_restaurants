@@ -2,6 +2,12 @@
   1.google fonts : font-family: "Lato", sans-serif;
   2.Flat UI colors:https://flatuicolors.com/palette/defo
   3.0to255: http://www.0to255.com/
+  4.ionicons or font-awesome icons for web
+  .icon-big{
+    font-size:400%;
+    color:red;
+    display:block;
+  }
 
 */
 
@@ -34,13 +40,21 @@ header {
   height: 100vh;
   background-size: cover;
   background-position: center;
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 }
 
 header .header-text-box {
-  max-width: 1140px;
+  /* width: 1140px; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
 }
 header .header-text-box h1 {
   font-size: 5rem;
